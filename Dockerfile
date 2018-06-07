@@ -66,4 +66,4 @@ RUN set -x \
 
 EXPOSE 80
 
-#CMD ["/sbin/runit-wrapper"]
+CMD ["/sbin/runit-wrapper"]
