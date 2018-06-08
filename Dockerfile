@@ -6,4 +6,3 @@ RUN apk add --no-cache $PHPIZE_DEPS
 RUN pecl channel-update pecl.php.net
 RUN pecl install xdebug
 RUN docker-php-ext-enable xdebug
-
